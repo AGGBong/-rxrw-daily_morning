@@ -10,10 +10,10 @@ jobs:
     name: send morning to your girlfriend
 
     steps:
-    - name: Use Node.js 20.15.0
+    - name: Use Node.js 20.12.2
       uses: actions/setup-node@v2
       with:
-        node-version: 20.15.0
+        node-version: 20.12.2
 
     - name: Install dependencies
       run: npm install
