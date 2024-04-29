@@ -10,6 +10,11 @@ jobs:
     name: send morning to your girlfriend
 
     steps:
+    - name: Use Node.js 20.15.0
+      uses: actions/setup-node@v1
+      with:
+        node-version: 20.15.0
+    
     - name: checkout
       uses: actions/checkout@v3
       with:
